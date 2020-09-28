@@ -43,7 +43,7 @@ input { display: table-cell; }
   background-image: url("moun.jpg");
 
   /* Control the height of the image */
-  min-height: 500px;
+  min-height: 1000px;
 
   /* Center and scale the image nicely */
   background-position: center;
