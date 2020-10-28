@@ -48,7 +48,7 @@ public class Admin extends HttpServlet {
 				Class.forName("com.mysql.jdbc.Driver");  
 				Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root","");  
 				//here sonoo is database name, root is username and password  
-				PreparedStatement pstmt=con.prepareStatement("select * from mark");
+				PreparedStatement pstmt=con.prepareStatement("select * from smarks");
 				pstmt.executeUpdate();
 				ResultSet rs=pstmt.executeQuery();
 				
