@@ -136,12 +136,12 @@ public class Serv extends HttpServlet {
 			Class.forName("com.mysql.jdbc.Driver");  
 			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root","");  
 			//here sonoo is database name, root is username and password  
-		PreparedStatement pstmt=con.prepareStatement("insert into mark(roll,marks) values(?,?)");
+		PreparedStatement pstmt=con.prepareStatement("insert into smarks(roll,marks) values(?,?)");
 			
 			pstmt.setString(1,r1);
 			pstmt.setInt(2,cnt);
 			pstmt.executeUpdate();
-			ResultSet rs=pstmt.executeQuery("select * from mark");
+			ResultSet rs=pstmt.executeQuery("select * from smarks");
 			
 			
 			while(rs.next())  
