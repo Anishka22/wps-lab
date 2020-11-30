@@ -1,0 +1,72 @@
+
+ h1{text-align: center
+  ;}
+img{float:left;}
+.navigation-bar {
+  width: 100%;  /* i'm assuming full width */
+  height: 80px; /* change it to desired width */
+  background-color:black; /* change to desired color */
+}
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+  margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+}
+.navigation-bar  a {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  height: 80px;        /* if you want it to take the full height of the bar */
+  line-height: 80px; 
+  color: white;   /* if you want it vertically middle of the navbar */
+}
+.navigation-bar li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  height: 80px;        /* if you want it to take the full height of the bar */
+  line-height: 80px; 
+  
+}
+.fi{color: white;}
+.hi{font-size: medium;
+font-style: italic;
+color: black;}
+form  { display: table;      }
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; }
+.bg-img {
+  /* The image used */
+  background-image: url("moun.jpg");
+
+  /* Control the height of the image */
+  min-height: 1000px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+  nav
+{
+overflow: auto;
+}
+figure{
+  display: inline-block;
+}
+a:link {
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color:white;
+  background-color: transparent;
+  text-decoration: underline;
+}
